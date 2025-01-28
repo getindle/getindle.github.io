@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: #E5D3B3;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #8B5E3C;
+    /* box-shadow: 0px 1px 4px 0px black; */
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p, nav a {
+    color: #E5D3B3;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #8B5E3C;
+    box-shadow: 0px 1px 4px 0px black;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #E5D3B3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B2C20;
+}
+
+.splash img {
+    border-radius: 3%;
+    border: 2px solid #4B2C20;
+}
+
+.splash p.address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.splash p.tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: #4B2C20;
+    border-radius: 100%;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B2C20;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+
+/* link styles */
+section a {
+    color: #0000EE;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* List Styles */
+ul {
+    list-style-type: circle;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.card {
+    outline: 1px solid #4B2C20;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 1s;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 3%;
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {
+    cursor: pointer;
+}
